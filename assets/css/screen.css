@@ -180,6 +180,7 @@ body {
     font-size: 1.8rem;
     line-height: 1.75em;
     color: #3A4145;
+    background: #eaeaea;
     -webkit-font-feature-settings: 'kern' 1;
     -moz-font-feature-settings: 'kern' 1;
     -o-font-feature-settings: 'kern' 1;
@@ -199,10 +200,10 @@ h4, h5, h6 {
     -webkit-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -moz-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
     -o-font-feature-settings: 'dlig' 1, 'liga' 1, 'lnum' 1, 'kern' 1;
-    color: #2E2E2E;
+    color: #696969;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+    font-family: 微软雅黑,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,sans-serif;
     text-rendering: geometricPrecision;
 }
 
@@ -297,7 +298,7 @@ hr {
 blockquote {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 1.75em 0 1.75em -2.2em;
+    margin: 0;
     padding: 0 0 0 1.75em;
     border-left: #4A4A4A 0.4em solid;
 }
@@ -722,6 +723,9 @@ margin on the iframe, cause it breaks stuff. */
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
