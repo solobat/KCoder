@@ -41,7 +41,7 @@
     <script type="text/javascript" src="{{asset "lib/highlight/highlight.js"}}"></script>
     <script>
         $(function() {
-            $('code').each(function(i, block) {
+            $('pre code').each(function(i, block) {
                 hljs.highlightBlock(block);
             });
         });
