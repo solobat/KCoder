@@ -39,7 +39,13 @@
     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     <script type="text/javascript" src="{{asset "lib/highlight/highlight.js"}}"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+        $(function() {
+            $('code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+    </script>
 
 </body>
 </html>
