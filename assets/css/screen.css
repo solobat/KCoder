@@ -353,11 +353,12 @@ pre {
 }
 
 pre code, tt {
-    font-size: inherit;
+    font-size: 14px;
     white-space: pre-wrap;
     background: transparent;
     border: none;
     padding: 0;
+    line-height: 1.5;
 }
 
 kbd {
