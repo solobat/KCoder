@@ -235,12 +235,12 @@ h6 {
 }
 
 a {
-    color: #0f9e26;
+    color: #258fb8;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #258fb8;
+    color: #111;
 }
 
 p, ul, ol, dl {
@@ -327,7 +327,17 @@ mark {
     background-color: #FFC336;
 }
 
-code, tt {
+tt {
+    padding: 1px 3px;
+    font-family: Inconsolata, monospace, sans-serif;
+    font-size: 0.85em;
+    white-space: pre-wrap;
+    border: #E3EDF3 1px solid;
+    background: #F7FAFB;
+    border-radius: 2px;
+}
+
+code {
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
     border-radius: 2px;
