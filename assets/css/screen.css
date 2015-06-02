@@ -235,12 +235,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #0f9e26;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #111;
+    color: #258fb8;
 }
 
 p, ul, ol, dl {
@@ -328,13 +328,15 @@ mark {
 }
 
 code, tt {
-    padding: 1px 3px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
-    white-space: pre-wrap;
-    border: #E3EDF3 1px solid;
-    background: #F7FAFB;
     border-radius: 2px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    text-shadow: 0 1px #fff;
+    margin: 0 3px;
+    padding: 1px 3px;
+    word-wrap: break-word;
 }
 
 pre {
