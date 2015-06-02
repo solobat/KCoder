@@ -327,7 +327,7 @@ mark {
     background-color: #FFC336;
 }
 
-tt {
+code, tt {
     padding: 1px 3px;
     font-family: Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
@@ -337,15 +337,11 @@ tt {
     border-radius: 2px;
 }
 
-code {
-    font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.85em;
-    border-radius: 2px;
+p > code {
     background: #ddd;
     border: 1px solid #ccc;
     text-shadow: 0 1px #fff;
     margin: 0 3px;
-    padding: 1px 3px;
     word-wrap: break-word;
 }
 
